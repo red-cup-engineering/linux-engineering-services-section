@@ -1,0 +1,33 @@
+{
+  "kind": "existing-linux-section-source-ownership",
+  "sourceRepository": "red-cup-engineering/computer-operating-system-services-section",
+  "sourceCommit": "df875d1dc2ca7c855245912386a3565bbab80309",
+  "sourcePath": "services/linux-services-section",
+  "originalTree": "21fbdfbea43c6a90d3dbfb1f12296ce38c7a47f0",
+  "originalImportCommit": "95919b39b52738fd7736ea107363cf711cf18796",
+  "canonicalRepository": "red-cup-engineering/linux-services-section",
+  "originalPublicAudiencePreserved": true,
+  "originalLeafCount": 101,
+  "functionalCodeUnchanged": true,
+  "sourceComposition": [
+    {
+      "path": "services/linux-time-services-section",
+      "repository": "red-cup-engineering/linux-time-services-section",
+      "commit": "05767803ee7b172fbf9a29df97a2eb98d32bf1b6"
+    },
+    {
+      "path": "services/persistent-linux-machine-engineering-services-section",
+      "repository": "red-cup-engineering/persistent-linux-machine-engineering-services-section",
+      "commit": "f549dca7a9686f984e0434878068811d7b409273"
+    },
+    {
+      "path": "services/systemd-services-section",
+      "repository": "red-cup-engineering/systemd-services-section",
+      "commit": "d8ef2c7fcdc5ff4dce08c87d86faf6a01689feb4"
+    }
+  ],
+  "scope": "Dedicated source ownership and ordinary Git composition; no invented package/version, registry release or native operating acceptance",
+  "remainingObligations": [
+    "Selected section repositories preserve original source; original historical implementation and native operating obligations remain with their actual consumers."
+  ]
+}

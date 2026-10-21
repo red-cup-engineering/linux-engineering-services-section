@@ -1,0 +1,14 @@
+[submodule "linux-time-services-section"]
+	path = services/linux-time-services-section
+	url = https://github.com/red-cup-engineering/linux-time-services-section.git
+	branch = main
+
+[submodule "persistent-linux-machine-engineering-services-section"]
+	path = services/persistent-linux-machine-engineering-services-section
+	url = https://github.com/red-cup-engineering/persistent-linux-machine-engineering-services-section.git
+	branch = main
+
+[submodule "systemd-services-section"]
+	path = services/systemd-services-section
+	url = https://github.com/red-cup-engineering/systemd-services-section.git
+	branch = main
