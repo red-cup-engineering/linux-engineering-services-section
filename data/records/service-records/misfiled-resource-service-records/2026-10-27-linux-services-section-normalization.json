@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-27-linux-services-section-normalization",
+  "kind": "misfiled-resources-register",
+  "by": "apply-services-section-normalization",
+  "date": "2026-10-27",
+  "moved": [
+    {
+      "from": "data/records/source-origin-records/original-linux-subtree-v1.json",
+      "to": "data/records/service-records/source-origin-service-records/original-linux-subtree-v1.json",
+      "rule": "eavt-data-law",
+      "sourceSha256": "264ef5fcb54f6c4d6c44d6d53a1074f4aa390e0c0064b30ced2851c2ad6cd365",
+      "destinationSha256": "264ef5fcb54f6c4d6c44d6d53a1074f4aa390e0c0064b30ced2851c2ad6cd365",
+      "byteIdentical": true
+    }
+  ],
+  "owed": [
+    {
+      "rule": "stray-top-level",
+      "reason": "LICENSE/ is not an entry the services-section law knows; its owner decides where it belongs",
+      "directory": ".",
+      "count": 1
+    }
+  ]
+}
